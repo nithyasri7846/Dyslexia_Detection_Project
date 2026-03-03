@@ -1,0 +1,22 @@
+# Ignore virtual environment
+venv/
+
+# Ignore model weights
+models/*.pth
+
+# Ignore processed images
+data/processed/
+
+# Ignore raw images
+data/raw/
+
+# Ignore split CSVs
+data/splits/
+
+# Ignore cache
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db

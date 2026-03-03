@@ -1,0 +1,10 @@
+import os
+from gradcam_visualize import run_gradcam
+
+ROOT = "../data/processed/dyslexic"
+
+for f in os.listdir(ROOT):
+    if f.lower().endswith((".jpg", ".png", ".jpeg")):
+        img_path = os.path.join(ROOT, f)
+        print("Processing:", img_path)
+        run_gradcam(img_path)
