@@ -1,9 +1,10 @@
 streamlit
 torch
 torchvision
+timm
 numpy
+Pillow
 opencv-python-headless
 matplotlib
-Pillow
 scikit-learn
-timm
+reportlab
