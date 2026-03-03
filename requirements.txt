@@ -5,3 +5,13 @@ torchaudio==2.5.0
 numpy==1.26.4
 Pillow
 opencv-python
+
+streamlit
+torch
+torchvision
+numpy
+opencv-python-headless
+matplotlib
+Pillow
+scikit-learn
+timm
