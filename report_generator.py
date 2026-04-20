@@ -1,4 +1,4 @@
-'''from reportlab.lib.pagesizes import letter
+from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
 import os
@@ -45,8 +45,9 @@ def generate_report(label, dys_prob, non_dys_prob, gradcam_path):
 
     c.save()
 
-    return report_path'''
-
+    return report_path
+    
+'''
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
@@ -202,4 +203,4 @@ def generate_report(label, dys_prob, non_dys_prob, gradcam_path):
     c.drawRightString(width - 44, 13, "Research prototype — not a clinical diagnosis")
 
     c.save()
-    return report_path
+    return report_path'''
