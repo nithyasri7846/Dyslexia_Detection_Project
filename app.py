@@ -1,4 +1,4 @@
-'''import streamlit as st
+import streamlit as st
 import os
 
 from predict import predict
@@ -185,9 +185,9 @@ elif st.session_state.page == "test":
                     data=file,
                     file_name="dyslexia_report.pdf",
                     mime="application/pdf"
-                )'''
+                )
 
-import streamlit as st
+'''import streamlit as st
 import os
 import datetime
 import json
@@ -956,4 +956,4 @@ render_nav()
 pg = st.session_state.page
 if   pg == "home":    page_home()
 elif pg == "analyze": page_analyze()
-elif pg == "profile": page_profile()
+elif pg == "profile": page_profile()'''
