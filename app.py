@@ -26,7 +26,7 @@ body {
 
 h1 {
     text-align: center;
-    color: white;
+    color: black;
     font-size: 45px;
 }
 .navbar {
@@ -38,7 +38,7 @@ h1 {
 }
 
 .nav-item {
-    color: white;
+    color: black;
     cursor: pointer;
     font-weight: 500;
 }
@@ -50,7 +50,7 @@ h1 {
 .about-box {
     text-align: center;
     margin-top: 0px;
-    color: white;
+    color: black;
 }
 
 .get-started {
@@ -59,7 +59,7 @@ h1 {
 
 .stButton>button {
     background: linear-gradient(45deg, #00f5d4, #00bbf9);
-    color: black;
+    color: white;
     border-radius: 30px;
     padding: 8px 25px;
     font-weight: bold;
